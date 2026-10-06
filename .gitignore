@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+ml-service/data/
+ml-service/models/*.keras
+ml-service/models/*.h5
+backend/uploads/*
+!backend/uploads/.gitkeep
+.DS_Store
