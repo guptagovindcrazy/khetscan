@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-const backend = process.env.VITE_PROXY_TARGET || 'http://localhost:5000';
+const backend = process.env.VITE_PROXY_TARGET || 'https://khetscan.onrender.com/';
 
 export default defineConfig({
   plugins: [react()],
